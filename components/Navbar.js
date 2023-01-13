@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { motion } from 'framer-motion'
 import { BiCodeAlt } from 'react-icons/bi'
 import { FiMenu } from 'react-icons/fi'
 
@@ -7,7 +8,7 @@ export default function Navbar(){
 
     return (
         <>
-            <div className="text-white flex justify-between items-center px-12 py-2">
+            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.8,duration:0.3}} className="text-white bg-[#1a1a1a] flex justify-between items-center px-12 py-2 fixed w-full h-auto top-0 z-[100]">
                 <div className='text-[24px] font-poppins'>
                     &#123;&#47;&#125; Sparsh.dev
                 </div>
@@ -19,11 +20,9 @@ export default function Navbar(){
                 <div className='bp:hidden inline-block text-[28px]'>
                     <FiMenu />
                 </div>
-            </div>
+            </motion.div>
 
-            <div>
                 
-            </div>
 
         </>
     )

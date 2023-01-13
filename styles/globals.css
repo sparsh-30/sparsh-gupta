@@ -1,3 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Code+Pro&display=swap');@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 @tailwind components;
 @tailwind utilities;

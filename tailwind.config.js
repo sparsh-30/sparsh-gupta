@@ -12,7 +12,8 @@ module.exports = {
     },
     fontFamily: {
       poppins: ['Poppins'],
-      source: ['Source Code Pro']
+      source: ['Source Code Pro'],
+      DMSans: ['DM Sans']
     }
   },
   plugins: [],
