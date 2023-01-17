@@ -30,7 +30,7 @@ export default function MacbookFlip() {
           />
           <img
             src="/html_doc.png"
-            className="h-[200px] px-3 md:h-[400px] w-full absolute top-10 -z-30"
+            className="h-[200px] px-3 md:h-[400px] w-full absolute top-4 bp:top-10 -z-30"
             alt="IMac_Inner_Image"
           />
         </div>
