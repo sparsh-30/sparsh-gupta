@@ -1,11 +1,7 @@
-import { useEffect, useState } from "react";
 import { GoChevronLeft, GoChevronRight } from "react-icons/go";
-import { motion, useTransform, useMotionValue } from "framer-motion";
+import { motion } from "framer-motion";
 
 export default function Hero(props) {
-  const demo=useMotionValue(0);
-  demo.onChange((val)=> console.log(val))
-
   return (
     <>
       <div className="pt-48 bp:pt-28 px-2">
@@ -29,26 +25,13 @@ export default function Hero(props) {
 
           {/* Text */}
           <motion.p
-            style={{width:demo}}
-            initial={{ opacity:0.000001 , width:0 , transformOrigin: 'left' }}
-            animate={{ opacity:1 , width: "fit-content" , transformOrigin: "left" }}
-            // initial={{ opacity: 0, letterSpacing: "-0.5em" }}
-            // animate={{ opacity: 1, letterSpacing: "0em" }}
+            initial={{ width:0 , transformOrigin: 'left' }}
+            animate={{ width: "fit-content" , transformOrigin: "left" }}
             transition={{ delay: 1, duration: 1, ease: "linear" }}
-            className="text-[40px] bp:text-[100px] text-white font-poppins relative font-[900]}"
+            className="text-[40px] bp:text-[100px] overflow-hidden text-white font-poppins relative font-[900]}"
           >
             {props.heroTitle}
           </motion.p>
-          {/* <motion.p
-            initial={{ opacity:0.000001 , rotateY: "100deg" , transformOrigin: 'left' }}
-            animate={{ opacity:1 , rotateY: 0 , transformOrigin: "left" }}
-            // initial={{ opacity: 0, letterSpacing: "-0.5em" }}
-            // animate={{ opacity: 1, letterSpacing: "0em" }}
-            transition={{ delay: 1, duration: 1, ease: "linear" }}
-            className="text-[40px] bp:text-[100px] text-white font-poppins relative font-[900]}"
-          >
-            {props.heroTitle}
-          </motion.p> */}
 
           {/* Right angle bracket */}
           <motion.div
