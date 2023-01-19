@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Code+Pro&display=swap');@tailwind base;
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Toto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat&family=Noto+Serif+Toto&family=Poppins&family=Source+Code+Pro&display=swap');
+@tailwind base;
 @tailwind components;
 @tailwind utilities;

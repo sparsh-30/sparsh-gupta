@@ -27,7 +27,7 @@ export default function Hero(props) {
           <motion.p
             initial={{ width:0 , transformOrigin: 'left' }}
             animate={{ width: "fit-content" , transformOrigin: "left" }}
-            transition={{ delay: 1, duration: 1, ease: "linear" }}
+            transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
             className="text-[40px] bp:text-[100px] overflow-hidden text-white font-poppins relative font-[900]}"
           >
             {props.heroTitle}

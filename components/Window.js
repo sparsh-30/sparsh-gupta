@@ -22,12 +22,13 @@ export default function Window() {
 
   return (
     <motion.div
-      initial={{ y: 100, opacity: 0 }}
-      whileInView={{ y: 0, opacity: 1 }}
+      initial={{ y: 50, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1, }}
+      viewport={{ once: true }}
       transition={{ duration: 0.5 }}
       className="w-full"
     >
-      <p className="text-[30px] bp:text-[65px] text-center font-bold">
+      <p className="text-[30px] bp:text-[65px] text-center font-montserrat font-bold">
         Hi, I&#39;m Sparsh Gupta 👋
       </p>
       <FaPowerOff
@@ -74,7 +75,7 @@ export default function Window() {
             <img
               className="mx-auto h-[200px] bp:h-[300px] w-[200px] bp:w-[300px] rounded-full"
               alt="Profile Picture"
-              src="/profile.jpg"
+              src="/demo.jpg"
             />
             <div className="font-source bp:text-[22px] mt10- mb-5 bp:mx-10">
               <p className="text-white my-3">&#47;&#47;</p>

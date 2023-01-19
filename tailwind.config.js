@@ -11,9 +11,11 @@ module.exports = {
       }
     },
     fontFamily: {
+      noto: ['Noto Serif Toto'],
+      montserrat: ['Montserrat'],
       poppins: ['Poppins'],
       source: ['Source Code Pro'],
-      DMSans: ['DM Sans']
+      DMSans: ['DM Sans'],
     }
   },
   plugins: [],

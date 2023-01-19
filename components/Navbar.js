@@ -8,7 +8,7 @@ export default function Navbar(){
 
     return (
         <>
-            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.8,duration:0.3}} className="text-white bg-[#1a1a1a] flex justify-between items-center px-12 py-2 fixed w-full h-auto top-0 z-[100]">
+            <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.2,duration:0.3}} className="text-white bg-[#1a1a1a] flex justify-between items-center px-12 py-2 fixed w-full h-auto top-0 z-[600]">
                 <div className='text-[24px] font-poppins'>
                     &#123;&#47;&#125; Sparsh.dev
                 </div>
