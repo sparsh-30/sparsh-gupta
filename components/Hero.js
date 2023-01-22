@@ -11,14 +11,15 @@ export default function Hero(props) {
             onClick={()=> console.log(demo)}
             initial={{ x: "-100px", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.5, duration: 0.5 }}
+            transition={{ delay: 0.8, duration: 0.5 }}
           >
             <GoChevronLeft className="text-[40px] bp:text-[100px] text-[#363535]" />
           </motion.div>
 
           {/* Slash */}
           <motion.div
-            transition={{ duration: 0.5, easeIn: [0.2, 0.6, 1] }}
+            transition={{ duration: 1.2, easeIn: [0.8, 0.85, 1] }}
+            initial={{ scale: 1.5 }}
             animate={{ scale: [1.5, 1, 1], rotateZ: ["0deg", "0deg", "15deg"] }}
             className="w-2 h-16 mr-4 bp:w-3 bp:h-32 bp:mr-8 bg-gradient-to-t from-[#FB0000] to-[#8703EE]"
           />
@@ -27,7 +28,7 @@ export default function Hero(props) {
           <motion.p
             initial={{ width:0 , transformOrigin: 'left' }}
             animate={{ width: "fit-content" , transformOrigin: "left" }}
-            transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
+            transition={{ delay: 1.5, duration: 0.7, ease: "easeInOut" }}
             className="text-[40px] bp:text-[100px] overflow-hidden text-white font-poppins relative font-[900]}"
           >
             {props.heroTitle}
@@ -37,7 +38,7 @@ export default function Hero(props) {
           <motion.div
             initial={{ x: "100px", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: 0.5, duration: 0.5 }}
+            transition={{ delay: 0.8, duration: 0.5 }}
           >
             <GoChevronRight className="text-[40px] bp:text-[100px] text-[#363535]" />
           </motion.div>
