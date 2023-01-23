@@ -31,7 +31,7 @@ export default function Hero(props) {
             transition={{ delay: 1.5, duration: 0.7, ease: "easeInOut" }}
             className="text-[40px] bp:text-[100px] overflow-hidden text-white font-poppins relative font-[900]}"
           >
-            {props.heroTitle}
+            {props.title}
           </motion.p>
 
           {/* Right angle bracket */}
@@ -49,7 +49,7 @@ export default function Hero(props) {
           transition={{ delay: 1.8, duration: 0.3 }}
           className="text-center text-lime-300 text-xl bp:text-3xl mt-3 font-source"
         >
-          &#47;&#47; This is my personal portfolio website. &#47;&#47;
+          &#47;&#47; {props.tagline} &#47;&#47;
         </motion.p>
       </div>
     </>

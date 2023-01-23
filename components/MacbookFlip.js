@@ -23,15 +23,19 @@ export default function MacbookFlip() {
         style={{ scale: demo }}
       >
         <div className="relative h-[300px] w-[500px] md:h-[600px] md:w-[700px] mx-auto">
-          <img
+          <Image
             src="/imac.png"
             className="h-[300px] md:h-[600px] w-full mx-auto z-50"
             alt="IMac"
+            width={600}
+            height={300}
           />
-          <img
+          <Image
             src="/html_doc.png"
             className="h-[200px] px-3 md:h-[400px] w-full absolute top-4 bp:top-10 -z-30"
             alt="IMac_Inner_Image"
+            height={200}
+            width={400}
           />
         </div>
       </motion.div>
@@ -40,10 +44,12 @@ export default function MacbookFlip() {
         className="h-[100vh] w-full top-0 sticky z-40 flex justify-center items-center"
         style={{ opacity: bg }}
       >
-        <img
+        <Image
           src="/gradient.webp"
           className="h-[800px] md:h-[600px] w-full mx-auto"
           alt="Background_Gradient"
+          height={600}
+          width={600}
         />
       </motion.div>
     </motion.div>

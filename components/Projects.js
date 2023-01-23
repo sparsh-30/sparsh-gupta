@@ -1,4 +1,4 @@
-import ProjectCard from "./subcomponents/ProjectCard"
+import ProjectCard from "./ProjectCard"
 
 export default function Projects(){
     return (
