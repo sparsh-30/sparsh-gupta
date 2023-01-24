@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { FaHandMiddleFinger, FaPowerOff } from "react-icons/fa";
@@ -72,22 +73,17 @@ export default function Window() {
             className="overflow-hidden"
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               className="mx-auto h-[200px] bp:h-[300px] w-[200px] bp:w-[300px] rounded-full"
               alt="Profile Picture"
-              src="/demo.jpg"
+              height={300}
+              width={200}
+              src="/profile.jpg"
             />
             <div className="font-source bp:text-[22px] mt10- mb-5 bp:mx-10">
               <p className="text-white my-3">&#47;&#47;</p>
               <p className="text-[#c3e88d]">
-                Hey there, I am Sparsh Gupta currently a student in Chitkara
-                University, Rajpura pursuing BE in Computer Science. I am trying
-                to seek an entry level job in full-stack web development with
-                curiosity to learn new technologies. I also like to do
-                competitive programming. I have solve over 250+ questions over
-                various platforms. As a technical content writer for
-                GeeksforGeeks, I have also published 2 articles. I am fluent in
-                English, Hindi and Punjabi.
+                Hey there, I am Sparsh Gupta currently a student in Chitkara University, Rajpura pursuing BE in Computer Science. I love to create vibrant websites with catchy animations using technologies like NextJS, Tailwind CSS .etc. I am a MERN stack developer also with knowledge of React Native to create cross platform mobile applications.
               </p>
               <p className="text-white my-3">&#47;&#47;</p>
             </div>

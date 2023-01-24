@@ -7,20 +7,20 @@ export default function Projects() {
       <p className="text-[30px] bp:text-[65px] text-center font-montserrat font-bold">
         Featured Projects
       </p>
-      <div className="flex flex-col relative w-11/12 mx-auto py-20">
+      <div className="flex flex-col relative w-11/12 mx-auto py-24">
         <ProjectCard
           title="WhatsApp Clone"
-          imageURL="/demo.jpg"
+          imageURL="/img2.jpg"
           github="https://github.com/sparsh-30/Whatpapp-Clone"
         />
         <ProjectCard
           title="OnePlus Clone"
-          imageURL="/demo.jpg"
+          imageURL="/img1.jpg"
           github="https://github.com/sparsh-30/Whatpapp-Clone"
         />
         <ProjectCard
           title="TurboFuture"
-          imageURL="/demo.jpg"
+          imageURL="/img5.jpg"
           github="https://github.com/sparsh-30/Whatpapp-Clone"
         />
       </div>

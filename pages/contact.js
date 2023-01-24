@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import { motion } from "framer-motion";
 import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
@@ -8,6 +9,10 @@ import Navbar from "../components/Navbar";
 export default function Contact() {
   return (
     <div>
+      <Head>
+        <title>Sparsh Gupta | Contact</title>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+      </Head>
       <Navbar />
       <Hero
         title="CONTACT"

@@ -21,7 +21,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="fixed top-0 bg-[#1a1a1a] z-[600] w-full">
+    <div className="fixed top-0 bg-[#1a1a1a] z-[600] w-full py-2">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

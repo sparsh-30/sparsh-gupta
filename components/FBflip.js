@@ -43,10 +43,7 @@ export default function FBflip() {
           <div className="h-full w-10/12 mx-auto mt-5 bp:mt-20">
             <p className="font-noto text-[40px] bp:text-[60px] text-center">Front end</p>
             <p className="font-source text-[16px] text-center bp:text-left bp:text-[25px]">
-              I assist designers, small agencies, and businesses in bringing
-              their concepts to life. I turn your requirements into CMS-ified
-              and ecommerce-ified websites - on time and on budget - using
-              Figma, VS Code, and coffee.
+              I use frontend technologies such as HTML, CSS, Javascript, JQuery as well as frameworks like ReactJS, NextJS, Tailwind CSS to create vibrant layouts and websites with catchy animations.
             </p>
           </div>
         </motion.div>
@@ -75,10 +72,7 @@ export default function FBflip() {
           <div className="h-full w-10/12 mx-auto mt-5 bp:mt-20">
           <p className="font-noto text-[40px] bp:text-[60px] text-center">Back end</p>
             <p className="font-source text-[16px] text-center bp:text-left bp:text-[25px]">
-              I assist designers, small agencies, and businesses in bringing
-              their concepts to life. I turn your requirements into CMS-ified
-              and ecommerce-ified websites - on time and on budget - using
-              Figma, VS Code, and coffee.
+              I have a knowledge of backend technologies such as NodeJS, ExpressJS, MongoDb and real-time communication library, Socket.io. I also use a headless CMS, Sanity.io to structure content.
             </p>
           </div>
         </motion.div>

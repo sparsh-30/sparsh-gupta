@@ -48,13 +48,13 @@ export default function ProjectCard(props) {
           variants={hoverVariant}
           initial={toggle === false ? "hide" : "show"}
           animate={toggle === false ? "hide" : "show"}
-          className="h-60 mx-auto z-[60]"
+          className="h-60 mx-auto z-[60] flex justify-center items-center"
         >
           <Image
             src={props.imageURL}
             height={500}
             width={1000}
-            className="h-80 w-[400px] rounded-xl z-[100]"
+            className="h-[400px] w-[400px] rounded-xl z-[100]"
             alt="Project Thumbnail"
           />
         </motion.div>

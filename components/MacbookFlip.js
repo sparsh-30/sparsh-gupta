@@ -31,7 +31,7 @@ export default function MacbookFlip() {
             height={300}
           />
           <Image
-            src="/html_doc.png"
+            src="/imac_background.png"
             className="h-[200px] px-3 md:h-[400px] w-full absolute top-4 bp:top-10 -z-30"
             alt="IMac_Inner_Image"
             height={200}

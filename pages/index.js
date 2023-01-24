@@ -12,10 +12,14 @@ export default function Home() {
     <>
       <Head>
         <title>Sparsh Gupta | Portfolio</title>
+        <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
       <div className="bg-[#1a1a1a] text-white z-[500] border-b-2 border-black">
         <Navbar />
-        <Hero title="DEVELOPER" tagline="This is my personal portfolio website." />
+        <Hero
+          title="DEVELOPER"
+          tagline="This is my personal portfolio website."
+        />
         <MacbookFlip />
         <Window />
         <Projects />

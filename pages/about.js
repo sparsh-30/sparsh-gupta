@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Window from "../components/Window";
@@ -6,6 +7,7 @@ import Carousel from "react-multi-carousel";
 import Skill from "../components/Skill";
 import Timeline from "../components/Timeline";
 import Footer from "../components/Footer";
+import { motion } from "framer-motion";
 import { AiOutlineDownload } from "react-icons/ai";
 import "react-multi-carousel/lib/styles.css";
 
@@ -39,11 +41,20 @@ export default function About() {
 
   return (
     <div>
+      <Head>
+        <title>Sparsh Gupta | About</title>
+        <link rel="icon" type="image/png" href="/favicon.png" />
+      </Head>
       <Navbar />
-      <Hero title="ABOUT" tagline="This is my personal portfolio website." />
-      <div className="my-40">
+      <Hero title="ABOUT" tagline="I am a MERN stack web developer." />
+      <motion.div
+        initial={{ y: 100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 2.2, duration: 0.5 }}
+        className="my-40"
+      >
         <Window />
-      </div>
+      </motion.div>
       <p className="text-[30px] bp:text-[65px] my-20 text-center font-montserrat font-bold">
         Education
       </p>
