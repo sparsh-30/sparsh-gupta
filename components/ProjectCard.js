@@ -74,10 +74,10 @@ export default function ProjectCard(props) {
           <AiFillGithub className="text-4xl my-5" />
         </Link>
         <Image
-          src="/demo.jpg"
+          src={props.imageURL}
           height={500}
           width={600}
-          className="w-full h-60 my-6 rounded-xl"
+          className="w-11/12 h-[400px] my-6 rounded-xl"
           alt="Project Thumbnail"
         />
       </motion.div>
