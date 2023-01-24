@@ -1,4 +1,4 @@
-import './Timeline.css'
+// import './Timeline.css'
 
 const Timeline = () => {
   return (
@@ -9,22 +9,22 @@ const Timeline = () => {
 		</div>
 		<div className="all-timelines">
 			
-			<div className="single-timeline d-flex-2">
+			<div className="single-timeline d-flex-2 text-xl font-montserrat font-bold">
 				<div className="timeline-blank"></div>
 				<div className="timeline-text d-flex-2">
 					<span>
-						<h6>2018</h6><br />
+						<p className="font-extrabold">2018</p><br />
 						Passed class 10th from Oxford Sen. Sec. School, Moga
 					</span>
 					<div className="t-square"></div>
 				</div>
 			</div>
 			
-			<div className="single-timeline d-flex-2">
+			<div className="single-timeline d-flex-2 text-xl font-montserrat font-bold">
 				<div className="timeline-blank"></div>
 				<div className="timeline-text d-flex-2">
 					<span>
-						<h6>2018-2020</h6><br />
+						<p className="font-extrabold">2018-2020</p><br />
 						Passed class 12th from Punjab Convent School, Baghapurana
 					</span>
 					<div className="t-square"></div>
@@ -32,11 +32,11 @@ const Timeline = () => {
 			</div>
 			
 						
-			<div className="single-timeline d-flex-2">
+			<div className="single-timeline d-flex-2 text-xl font-montserrat font-bold">
 				<div className="timeline-blank"></div>
 				<div className="timeline-text d-flex-2">
 					<span>
-						<h6>2020-Present</h6><br />
+						<p className="font-extrabold">2020-Present</p><br />
 						Currently studying at Chitkara University
 					</span>
 					<div className="t-square"></div>
