@@ -26,12 +26,12 @@ export default function Navbar() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2, duration: 0.3 }}
-        className="text-white flex justify-between items-center px-12 py-2 w-full h-auto z-[600]"
+        className="text-white flex justify-between items-center px-4 lg:px-12 py-2 w-full h-auto z-[600]"
       >
         <Link href="/">
           <div
             onClick={() => setIndex(0)}
-            className={`text-[24px] ${
+            className={`text-[18px] lg:text-[24px] ${
               index === 0 ? "text-[#FFD660]" : ""
             } font-poppins hover:text-[#FFD660] transition-all duration-200`}
           >
@@ -72,7 +72,7 @@ export default function Navbar() {
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className="bp:hidden inline-block text-[28px]"
+          className="bp:hidden inline-block text-[24px] bp:text-[28px]"
         >
           <FiMenu />
         </div>

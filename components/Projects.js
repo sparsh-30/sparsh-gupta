@@ -16,12 +16,12 @@ export default function Projects() {
         <ProjectCard
           title="OnePlus Clone"
           imageURL="/img1.jpg"
-          github="https://github.com/sparsh-30/Whatpapp-Clone"
+          github="https://github.com/sparsh-30/Oneplus-clone"
         />
         <ProjectCard
           title="TurboFuture"
           imageURL="/img5.jpg"
-          github="https://github.com/sparsh-30/Whatpapp-Clone"
+          github="https://github.com/sparsh-30/Service_Providing_Website"
         />
       </div>
       <div className="w-full flex justify-center mt-14">
