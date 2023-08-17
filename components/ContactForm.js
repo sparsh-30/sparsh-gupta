@@ -10,7 +10,7 @@ export default function ContactForm() {
 
   const handleSubmit = () => {
     if (name === "" || email === "" || message === "") {
-      toast.error("Please fill out the fieldss", {
+      toast.error("Please fill out all the fields", {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,

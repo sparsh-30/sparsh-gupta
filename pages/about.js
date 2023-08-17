@@ -103,6 +103,8 @@ export default function About() {
           <Skill title="MongoDB" percentage="80" />
           <Skill title="Tailwind CSS" percentage="95" />
           <Skill title="Firebase" percentage="70" />
+          <Skill title="IOT" percentage="70" />
+
         </Carousel>
       </div>
       <div className="flex justify-center my-20">

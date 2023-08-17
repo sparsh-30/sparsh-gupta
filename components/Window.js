@@ -73,17 +73,17 @@ export default function Window() {
             className="overflow-hidden"
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <Image
+            {/* <Image
               className="mx-auto h-[200px] bp:h-[300px] w-[200px] bp:w-[300px] rounded-full"
               alt="Profile Picture"
               height={300}
               width={200}
               src="/profile.jpg"
-            />
+            /> */}
             <div className="font-source bp:text-[22px] mt10- mb-5 bp:mx-10">
               <p className="text-white my-3">&#47;&#47;</p>
               <p className="text-[#c3e88d]">
-                Hey there, I am Sparsh Gupta currently a student in Chitkara University, Rajpura pursuing BE in Computer Science. I love to create vibrant websites with catchy animations using technologies like NextJS, Tailwind CSS .etc. I am a MERN stack developer also with knowledge of React Native to create cross platform mobile applications.
+                Hey there, I am Sparsh Gupta currently a student in Chitkara University, Rajpura pursuing BE in Computer Science. I love to create vibrant websites with catchy animations using technologies like NextJS, Tailwind CSS .etc. I am a MERN stack developer who can develop cross-platform mobile applications using React Native.
               </p>
               <p className="text-white my-3">&#47;&#47;</p>
             </div>

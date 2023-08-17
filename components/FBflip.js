@@ -72,7 +72,7 @@ export default function FBflip() {
           <div className="h-full w-10/12 mx-auto mt-5 bp:mt-20">
           <p className="font-noto text-[40px] bp:text-[60px] text-center">Back end</p>
             <p className="font-source text-[16px] text-center bp:text-left bp:text-[25px]">
-              I have a knowledge of backend technologies such as NodeJS, ExpressJS, MongoDb and real-time communication library, Socket.io. I also use a headless CMS, Sanity.io to structure content.
+              I have a knowledge of backend technologies such as NodeJS, ExpressJS, MongoDb and real-time communication library, Socket.io. I can also use a headless CMS, Sanity.io to structure content.
             </p>
           </div>
         </motion.div>

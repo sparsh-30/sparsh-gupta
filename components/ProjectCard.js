@@ -78,7 +78,7 @@ export default function ProjectCard(props) {
             src={props.imageURL}
             height={500}
             width={600}
-            className="w-11/12 h-[400px] mt-1 mb-8 rounded-xl"
+            className="w-11/12 h-[400px] mb-8 rounded-xl"
             alt="Project Thumbnail"
           />
         </motion.div>
