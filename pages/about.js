@@ -61,7 +61,7 @@ export default function About() {
       <div className="bg-white w-3/4 mx-auto rounded-2xl mb-40">
         <Timeline />
       </div>
-      <div className="mb-40 w-2/3 mx-auto">
+      <div className="mb-20 w-2/3 mx-auto">
         <p className="text-[30px] bp:text-[65px] my-20 text-center font-montserrat font-bold">
           Skills
         </p>
@@ -107,10 +107,14 @@ export default function About() {
 
         </Carousel>
       </div>
-      <div className="flex justify-center my-20">
-        <button className="h-[80px] w-[200px] bp:h-[80px] bp:w-[200px] rounded-full text-3xl font-bold bg-gray-500 hover:bg-white hover:text-black transition-all duration-300">
-          Resume <AiOutlineDownload className="inline-block" />
-        </button>
+      <div className="mx-auto w-fit">
+        <Link className="mx-auto" href={`${process.env.RESUME_LINK}`} target="_blank">
+          <div className="flex justify-center my-20">
+            <button className="h-[80px] w-[200px] bp:h-[80px] bp:w-[200px] rounded-full text-3xl font-bold bg-gray-500 hover:bg-white hover:text-black transition-all duration-300">
+              Resume <AiOutlineDownload className="inline-block" />
+            </button>
+          </div>
+        </Link>
       </div>
       <Footer />
     </div>
