@@ -8,7 +8,6 @@ export default function Hero(props) {
         <div className="flex justify-center items-center">
           {/* Left angle bracket */}
           <motion.div
-            onClick={()=> console.log(demo)}
             initial={{ x: "-100px", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.5 }}

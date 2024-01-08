@@ -24,34 +24,40 @@ export default function Work() {
         className="grid grid-cols-1 bp:grid-cols-2 xl:grid-cols-3 py-20"
       >
         <ProjectTile
+          title="SpendWise"
+          description="A mobile application developed using React Native for easy expense and income management."
+          imageURL="/spendwise.jpg"
+          github="https://github.com/sparsh-30/SpendWise"
+        />
+        <ProjectTile
           title="WhatsApp Clone"
           description="MERN stack clone of WhatsApp with realtime chatting using Socket.io"
-          imageURL="/img2.jpg"
+          imageURL="/whatsapp.jpg"
           github="https://github.com/sparsh-30/Whatpapp-Clone"
         />
         <ProjectTile
           title="OnePlus Clone"
           description="A Bootstrap clone of the official OnePlus website"
-          imageURL="/img1.jpg"
+          imageURL="/oneplus.jpg"
           github="https://github.com/sparsh-30/Oneplus-clone"
-        />
-        <ProjectTile
-          title="Weather App"
-          description="A simple weather app using React JS"
-          imageURL="/img6.jpg"
-          github="https://github.com/sparsh-30/react-weather-app"
         />
         <ProjectTile
           title="TurboFuture"
           description="TurboFuture is a service providing website built using HTML, CSS, Javascript and JQuery"
-          imageURL="/img5.jpg"
+          imageURL="/turbofuture.jpg"
           github="https://github.com/sparsh-30/Service_Providing_Website"
         />
         <ProjectTile
           title="E-Commerce Website"
           description="An E-Commerce website created using HTML, CSS and Javascript"
-          imageURL="/img8.jpg"
+          imageURL="/ecommerce.jpg"
           github="https://github.com/sparsh-30/E-commerce-website"
+        />
+        <ProjectTile
+          title="Weather App"
+          description="A simple weather app using React JS"
+          imageURL="/weather.jpg"
+          github="https://github.com/sparsh-30/react-weather-app"
         />
       </motion.div>
       <Footer />

@@ -123,7 +123,7 @@ export default function Footer() {
         </div>
       </div>
       <div className='text-center text-xl'>
-        <p>Made with ❤ by: Sparsh Gupta</p>
+        <p>Made by: Sparsh Gupta</p>
         <p>Copyright@ 2023</p>
       </div>
     </div>

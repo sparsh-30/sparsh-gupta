@@ -6,7 +6,7 @@ export default function MacbookFlip() {
   const ref = useRef(null);
 
   const { scrollYProgress } = useScroll({ target: ref });
-  const demo = useTransform(scrollYProgress, [0, 1], [1, 0.9]);
+  const demo = useTransform(scrollYProgress, [0, 0.5], [1, 0.85]);
   const bg = useTransform(scrollYProgress, [0.5, 1], [0, 1]);
 
   return (
@@ -15,7 +15,6 @@ export default function MacbookFlip() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 2, duration: 0.3 }}
       ref={ref}
-      onClick={() => console.log(scrollYProgress)}
       className="h-[300vh] w-full py-20 px-5"
     >
       <motion.div

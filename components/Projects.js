@@ -9,18 +9,18 @@ export default function Projects() {
       </p>
       <div className="flex flex-col relative w-11/12 mx-auto py-24">
         <ProjectCard
+          title="SpendWise"
+          imageURL="/spendwise.jpg"
+          github="https://github.com/sparsh-30/SpendWise"
+        />
+        <ProjectCard
           title="WhatsApp Clone"
-          imageURL="/img2.jpg"
+          imageURL="/whatsapp.jpg"
           github="https://github.com/sparsh-30/Whatpapp-Clone"
         />
         <ProjectCard
-          title="OnePlus Clone"
-          imageURL="/img1.jpg"
-          github="https://github.com/sparsh-30/Oneplus-clone"
-        />
-        <ProjectCard
           title="TurboFuture"
-          imageURL="/img5.jpg"
+          imageURL="/turbofuture.jpg"
           github="https://github.com/sparsh-30/Service_Providing_Website"
         />
       </div>
